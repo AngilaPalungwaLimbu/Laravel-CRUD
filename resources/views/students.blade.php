@@ -33,7 +33,7 @@
                                     <form action="/student/{{$student->id}}" method="post">
                                         @csrf
                                         @method('delete')
-                                        <a href="/student/{{$student->id}}/edit" class="btn badge bg-success">Edit</a>
+                                        <a href="/student/{{$student->id}}" class="btn badge bg-success">Edit</a>
                                         <button type="submit" class="btn badge bg-danger">Delete</button>
 
                                     </form>

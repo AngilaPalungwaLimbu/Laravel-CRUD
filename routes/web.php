@@ -23,3 +23,6 @@ Route::get('/', function () {
 Route::get('/addstudent', [PageController::class,"add"]);
 Route::get('/students', [PageController::class,"students"]);
 Route::post('/create', [PageController::class,"create"]);
+Route::get('/student/{id}', [PageController::class,"edit"]);
+Route::put('/student/{id}', [PageController::class,"update"]);
+Route::delete('/student/{id}', [PageController::class,"delete"]);
