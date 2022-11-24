@@ -15,14 +15,14 @@
                             class="hide-menu fs-4 ms-2">Add Students</span></a>
                 </li>
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html"
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/faculty"
                         aria-expanded="false"><i class="fa-solid fa-user-group"></i><span
-                            class="hide-menu fs-4 ms-2"> Teachers</span></a>
+                            class="hide-menu fs-4 ms-2"> Faculties</span></a>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html"
                         aria-expanded="false"><i class="fa-solid fa-user-group"></i><span
-                            class="hide-menu fs-4 ms-2"> Librarians</span></a>
+                            class="hide-menu fs-4 ms-2"> Teachers</span></a>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html"

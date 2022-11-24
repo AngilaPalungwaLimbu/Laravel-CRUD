@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\facultyController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
@@ -26,3 +27,5 @@ Route::post('/create', [PageController::class,"create"]);
 Route::get('/student/{id}', [PageController::class,"edit"]);
 Route::put('/student/{id}', [PageController::class,"update"]);
 Route::delete('/student/{id}', [PageController::class,"delete"]);
+Route::resource('faculty',facultyController::class);
+
