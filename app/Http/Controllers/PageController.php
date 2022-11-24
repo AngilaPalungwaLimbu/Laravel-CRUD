@@ -60,12 +60,11 @@ class PageController extends Controller
         }
 
         $student->update();
-        // toast('Your Post is saved!','success');
         return redirect('/students');
     }
-    // public function delete($id){
-    //    $student=Student::find($id);
-    //    $student->delete();
-    //    return redirect()->back();
-    // }
+    public function delete($id){
+       $student=Student::find($id);
+       $student->delete();
+       return redirect()->back();
+    }
 }
